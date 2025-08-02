@@ -1,0 +1,47 @@
+
+.nav_bar{
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(222, 176, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+    font-style: italic;
+    font-size: 62px;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+li a{
+
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 50px;
+}
+li button{
+    background-color: rgb(105, 248, 179);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+li button:hover{
+    background-color: orange;
+    color: white;
+}
+li button:active{
+    transform: translate(5px,5px);
+}
+li a:active{
+    color: blanchedalmond;
+}
